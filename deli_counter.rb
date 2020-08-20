@@ -2,7 +2,7 @@ katz_deli = []
 
 def line(arr)
 
-  if arr >= 1
+  if arr.length >= 1
     arr2=[]
     count=0
     arr.each do|x|
