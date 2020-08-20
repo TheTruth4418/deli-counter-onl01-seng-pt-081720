@@ -24,6 +24,6 @@ end
 
 def now_serving(arr)
   serving = arr[0]
-  puts "Currently serving #{serving}" 
+  puts "Currently serving #{serving}"
   arr.shift();
 end
