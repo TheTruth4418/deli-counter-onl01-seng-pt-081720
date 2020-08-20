@@ -13,6 +13,7 @@ status = ""
     arr.each do|x|
       arr.join("#{count}")
       count+=1
+    end
   end
 
 puts "The line is currently#{status}"
