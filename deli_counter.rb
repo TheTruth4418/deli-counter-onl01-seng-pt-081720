@@ -10,7 +10,7 @@ status = ""
   if arr.length == 0
     status = " empty."
   else
-    arr.each do|x|
+    status =  arr.each do|x|
       arr.join("#{count}")
       count+=1
     end
