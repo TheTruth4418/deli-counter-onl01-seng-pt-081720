@@ -11,7 +11,7 @@ status = ""
     status = " empty."
   else
     status = ": " << arr.each do|x|
-      print "#{count+1}. " << arr[count]
+      print "#{count+1}. " << arr[count].to_s
     end
   end
 
