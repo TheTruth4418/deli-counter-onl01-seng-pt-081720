@@ -12,6 +12,7 @@ status = ""
   else
     status = ": " << arr.each do|x|
       print "#{count+1}. " << arr[count]
+    end
   end
 
 puts "The line is currently#{status}"
