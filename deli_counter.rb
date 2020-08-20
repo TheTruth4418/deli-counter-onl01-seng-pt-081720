@@ -4,7 +4,7 @@ def line(arr)
 
   if arr.length >= 1
     arr2=[]
-    count=0
+    count=1
     arr.each do|x|
         arr2.push("#{count}. #{x}")
         count+=1
