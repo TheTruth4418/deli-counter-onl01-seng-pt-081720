@@ -11,7 +11,7 @@ status = ""
     status = " empty."
   else
     status = ": " << arr.join("#{count}. ")
-    
+
   end
 
 puts "The line is currently#{status}"
