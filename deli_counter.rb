@@ -12,9 +12,12 @@ def line(arr)
     puts "The line is currently: #{arr2.join(" ")}"
   else
     puts "The line is currently empty."
-end
+  end
 end
 def take_a_number(arr, name)
+  number = arr.length + 1
+
+  puts "Welcome, #{name}. You are number #{number} in line."
 
 end
 
