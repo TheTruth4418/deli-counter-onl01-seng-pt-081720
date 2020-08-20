@@ -23,6 +23,7 @@ def take_a_number(arr, name)
 end
 
 def now_serving(arr)
-  puts "Currently serving " << arr[0]
+  serving = arr[0]
+  puts "Currently serving #{serving}" 
   arr.shift();
 end
