@@ -11,8 +11,7 @@ status = ""
     status = " empty."
   else
     status =  arr.each do|x|
-      arr.join("#{count}")
-      count+=1
+      arr.join("")
     end
   end
 
