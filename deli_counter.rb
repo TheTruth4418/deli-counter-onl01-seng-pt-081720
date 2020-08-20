@@ -10,7 +10,7 @@ status = ""
   if arr.length == 0
     status = " empty."
   else
-    status = ": #{count}" << arr.join(" ")
+    status = ": #{count}. " << arr.join(" ")
 
   end
 
