@@ -3,14 +3,15 @@ katz_deli = []
 def line(arr)
 
 count = 0
-position = 1
+
 
 status = ""
 
   if arr.length == 0
     status = " empty."
   else
-    status = ": " << arr[0];
+    status = ": " << arr.each do|x|
+      print "#{count+1}. " << arr[count]
   end
 
 puts "The line is currently#{status}"
