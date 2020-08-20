@@ -10,9 +10,8 @@ status = ""
   if arr.length == 0
     status = " empty."
   else
-    status = ": " << arr.each do|x|
-      print "#{count+1}. " << x.to_s
-    end
+    status = ": " << arr.join("#{count}. ")
+    
   end
 
 puts "The line is currently#{status}"
